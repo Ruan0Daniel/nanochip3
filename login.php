@@ -19,7 +19,7 @@ $row = mysqli_num_rows($result);
 
 if($row == 1) { // caso o login seja correto executa esse bloco
 	$_SESSION['usuario'] = $usuario; // cria uma sessão para o usuário informado
-	header('Location: painel.html');	// direciona para o painel
+	header('Location: painel.php');	// direciona para o painel
 	exit();
 } else { 	// caso o login não esteja correto executa esse bloco
 	$_SESSION['nao_autenticado'] = true;	// cria uma sessão de não autenticação

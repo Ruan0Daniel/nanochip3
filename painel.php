@@ -4,7 +4,7 @@ include('conexao.php'); // Arquivo PHP com as informações de conexão ao banco
 $login = $_SESSION['usuario'];
 
 ?>
-<!DOCTYPE html>
+
 <html dir="ltr" lang="en">
 
 <head>
@@ -228,8 +228,8 @@ $login = $_SESSION['usuario'];
                         
                         <!-- User Profile-->
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="painel.html" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span
-                                    class="hide-menu"> Painel Principal </span></a></li> 
+                                href="painel.php" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span
+                                    class="hide-menu"> Painel Principal </span></a></li> <label> </label>
                         
 						
 						 <!-- <li class="sidebar-item"> 
